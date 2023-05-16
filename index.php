@@ -1,8 +1,40 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<?php include 'head.php' ?>
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+      
+    <link rel="stylesheet" href="boots.css">
+    <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="assets/css/default.css">
+<link rel="stylesheet" href="assets/css/theme-orange.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!-- ==================================ICON=========================================== -->
+<script src="https://kit.fontawesome.com/d746e927a6.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- ============================================== Theme Settings =============================================== -->
+<style>
+    :root {
+        --header-bg-color: #040402;
+        --nav-item-color: #f5f5f5;
+        --top-nav-item-color: #f5f5f5;
+        --hero-bg-color: #040402;
+        --section-1-bg-color: #111111;
+        --section-2-bg-color: #191919;
+        --section-3-bg-color: #040402;
+        --section-4-bg-color: #111111;
+        --section-5-bg-color: #191919;
+        --section-6-bg-color: #040402;
+        --section-7-bg-color: #111111;
+        --footer-bg-color: #191919;
+    }
+</style>
 <style>
     .card-img-top{
         width:15rem;
@@ -13,8 +45,86 @@
 <body class="theme-mode-dark">
 
     <!-- Header -->
-    <?php include 'header.php' ?>
+    <? include 'head.php' ?>
 
+    <header id="header" >
+    <style>
+       .navber-nav .nav-item .nav-link{
+            color:#000;
+        }
+    </style>
+    <!-- Navbar -->
+    <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand" style="background-color:#fff; height:100px;">
+        <div class="container header">
+    
+            <!-- Navbar Brand-->
+            <a class="navbar-brand" href="index.php"><img src="Assets/images/filmi art.png" alt="" style="width: 200px; height: auto;">
+        
+                    <!-- 
+                        Custom Logo
+                        <img src="assets/images/logo.svg" alt="Leverage">
+                    -->
+                </a>
+    
+            <!-- Nav holder -->
+            <div class="ml-auto"></div>
+    
+            <!-- Navbar Items -->
+            <ul class="navbar-nav items">
+                <li class="nav-item dropdown">
+                    <a href="index.php" class="nav-link">Home</a>
+                    
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="registration.php" class="nav-link">Register</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="judge.php" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Categories</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="judge.php" class="nav-link">Judge</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="rewards.php" class="nav-link">Rewards</a>
+                </li>
+            </ul>
+    
+            <!-- Navbar Icons -->
+            <ul class="navbar-nav icons">
+               
+                <li class="nav-item social">
+                    <a href="#" class="nav-link"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="nav-item social">
+                    <a href="#" class="nav-link"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="nav-item social">
+                    <a href="#" class="nav-link"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li class="nav-item social">
+                    <a href="#" class="nav-link"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+            </ul>
+    
+            <!-- Navbar Toggle -->
+            <ul class="navbar-nav toggle">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                            <i class="icon-menu m-0"></i>
+                        </a>
+                </li>
+            </ul>
+    
+            <!-- Navbar Action -->
+            
+        </div>
+    </nav>
+    
+    </header>
+    
 
     <!-- Hero -->
     <section id="slider" class="hero p-0 odd" >
@@ -383,7 +493,70 @@
 </section>
 <!-- ------ -->
   <!-- footer -->
- <?php include 'footer.php' ?>
+  <!-- footer -->
+  <footer style="background-color:#f1eded85;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md 4">
+                <div class="logo">
+                    <img src="Assets/images/filmi art.png" alt="">
+                </div>
+            </div>
+            <div class="col-md 4">
+                <div class="" style="margin-top: 100px;">
+                    <h2 class="" style="color:#000">Get In Touch</h2>
+                    <ul class="navbar-nav">
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                    +1 123 98765 4321
+                                </a>
+                        </li>
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link" >
+                                <i class="fa fa-envelope-open" aria-hidden="true"></i>
+                                    hello@business.com
+                                </a>
+                        </li>
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    Office Street, 123
+                                </a>
+                        </li>
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#contact" class="mt-4 mr-auto ml-auto ml-lg-0 btn dark-button smooth-anchor"><i class="fa fa-commenting" aria-hidden="true"></i>SEND A MESSAGE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md 4">
+                <div class="" style="margin-top: 100px;">
+                    <h4 class="title" style="color: #000;">Our Services</h4>
+                    <ul class="navbar-nav">
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link">Website Development</a>
+                        </li>
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link">Building Applications</a>
+                        </li>
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link">SEO & Digital Marketing</a>
+                        </li>
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link">Branding and Identity</a>
+                        </li>
+                        <li class="nav-item" style="color: #000;">
+                            <a href="#" class="nav-link">Digital Images & Videos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </footer>
+  <!-- --------- -->
+    <!-- Footer -->
   <!-- --------- -->
     <!-- Footer -->
    

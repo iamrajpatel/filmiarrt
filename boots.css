@@ -1,0 +1,18 @@
+.cat-body{
+    margin: 0 20px;
+    padding: 0 10px;
+}
+.card-body .card-title{
+    color: #000;
+    text-align: center;
+}
+.card-body .card-title{
+    color: #000;
+    text-align: center;
+}
+.cat-body .card:hover{
+    background-color: #000000;
+}
+.card-body:hover{
+    background-color: #000000;
+}
